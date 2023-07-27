@@ -35,7 +35,6 @@
     margin-top: 2rem;
     border: none;
     border-radius: 50px;
-    /* width: 45%; */
 }
 .button2 button {
     cursor: pointer;
@@ -44,7 +43,6 @@
     margin-top: 2rem;
     border: none;
     border-radius: 50px;
-    width: 45%;
 }
 .button3 button {
     color: hsl(179, 100%, 13%);
@@ -53,7 +51,6 @@
     margin-top: 2rem;
     border: none;
     border-radius: 50px;
-    width: 45%;
 }
 
 .third-background{

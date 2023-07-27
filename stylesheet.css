@@ -63,7 +63,7 @@ h2 {
 @media (min-width : 1022px) {
     .background {
         background-color: hsl(31, 77%, 52%);
-        height: 70vh;
+        height: 75vh;
         width: 20%;
         padding: 3rem;
         margin: 0;
@@ -75,7 +75,7 @@ h2 {
     }
     .second-background {
         background: hsl(184, 100%, 22%);
-        height: 70vh;
+        height: 75vh;
         line-height: 1.6;
         width: 20%;
         margin: 0;
@@ -84,7 +84,7 @@ h2 {
     
     .third-background{
         background-color: hsl(179, 100%, 13%);
-        height: 70vh;
+        height: 75vh;
         line-height: 1.6;
         width: 20%;
         margin: 0;

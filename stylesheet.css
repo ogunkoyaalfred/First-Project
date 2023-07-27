@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-size: 15px;
+    
+    
+}
+.background {
+    background-color: hsl(31, 77%, 52%);
+    height: 65vh;
+    line-height: 1.6;
+    width: 60%;
+    padding: 3rem;
+    margin: auto;
+    margin-top: 3rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+ 
+.second-background {
+    background: hsl(184, 100%, 22%);
+    height: 65vh;
+    line-height: 1.6;
+    width: 60%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.third-background{
+    background-color: hsl(179, 100%, 13%);
+    height: 65vh;
+    line-height: 1.6;
+    width: 60%;
+    margin: auto;
+    padding: 3rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 1rem;
+}
+.button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5rem;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: aquamarine;
+    transition: all .3s linear;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+h2 {
+    color: hsl(0, 0%, 95%);
+     font-size: 50px;
+     font-family: 'Big Shoulders Display';
+}
+@media (min-width : 1022px) {
+    .background {
+        background-color: hsl(31, 77%, 52%);
+        height: 70vh;
+        width: 20%;
+        padding: 3rem;
+        margin: 0;
+        margin-top: 3rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        
+    }
+    .second-background {
+        background: hsl(184, 100%, 22%);
+        height: 70vh;
+        line-height: 1.6;
+        width: 20%;
+        margin: 0;
+        padding: 3rem;
+    }
+    
+    .third-background{
+        background-color: hsl(179, 100%, 13%);
+        height: 70vh;
+        line-height: 1.6;
+        width: 20%;
+        margin: 0;
+        padding: 3rem;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        /* margin-bottom: 1rem; */
+    }
+    .container {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
+}

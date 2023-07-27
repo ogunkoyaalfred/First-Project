@@ -35,7 +35,7 @@
     margin-top: 2rem;
     border: none;
     border-radius: 50px;
-    width: 45%;
+    /* width: 45%; */
 }
 .button2 button {
     cursor: pointer;
@@ -141,7 +141,7 @@ h2 {
         margin-top: 3rem;
         border: none;
         border-radius: 50px;
-        width: 70%;
+        /* width: 70%; */
     }
     .button2 button {
         cursor: pointer;
